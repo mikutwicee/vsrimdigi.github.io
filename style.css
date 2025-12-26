@@ -50,3 +50,27 @@ footer {
   text-align: center;
   padding: 15px;
 }
+
+.card ul {
+  text-align: left;
+  padding-left: 20px;
+}
+
+.card ul li {
+  margin-bottom: 8px;
+}
+
+header h1 {
+  font-size: 36px;
+}
+
+section h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.btn:hover {
+  background: #6A4C93;
+  color: white;
+  transition: 0.3s;
+}
