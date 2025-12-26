@@ -1,54 +1,95 @@
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
-  background: #f5f7fa;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f4f6fb;
   color: #333;
+  line-height: 1.6;
 }
 
 header {
   background: linear-gradient(135deg, #0A2540, #6A4C93);
   color: white;
-  padding: 60px 20px;
+  padding: 80px 20px;
   text-align: center;
+}
+
+header h1 {
+  font-size: 42px;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 18px;
+  opacity: 0.95;
 }
 
 .btn {
   display: inline-block;
-  margin-top: 20px;
-  padding: 12px 25px;
-  background: #ffffff;
+  margin-top: 25px;
+  padding: 14px 30px;
+  background: white;
   color: #0A2540;
   text-decoration: none;
-  border-radius: 25px;
+  border-radius: 30px;
   font-weight: bold;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background: #6A4C93;
+  color: white;
+  transform: translateY(-3px);
 }
 
 .services {
-  padding: 40px 20px;
+  padding: 60px 20px;
   text-align: center;
+}
+
+.services h2 {
+  font-size: 32px;
+  margin-bottom: 40px;
+  color: #0A2540;
 }
 
 .card {
   background: white;
-  padding: 20px;
-  margin: 15px auto;
-  max-width: 400px;
-  border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  padding: 30px;
+  margin: 20px auto;
+  max-width: 420px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
 }
 
 .cta {
-  background: #0A2540;
+  background: linear-gradient(135deg, #6A4C93, #0A2540);
   color: white;
-  padding: 40px 20px;
+  padding: 70px 20px;
   text-align: center;
 }
 
+.cta h2 {
+  font-size: 34px;
+  margin-bottom: 15px;
+}
+
+.cta p {
+  font-size: 18px;
+  opacity: 0.95;
+}
+
 footer {
-  background: #111;
-  color: #ccc;
+  background: #0f172a;
+  color: #cbd5e1;
   text-align: center;
-  padding: 15px;
+  padding: 20px;
+  font-size: 14px;
 }
 
 .card ul {
